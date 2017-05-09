@@ -1,0 +1,181 @@
+Siege Running repeat through file_list.txt in order. Concurrency 6. Largest file is ~120mb
+Test runs for 60s
+
+Elixir
+============
+==== RUN 1 =====
+Transactions:		         727 hits
+Availability:		      100.00 %
+Elapsed time:		       59.70 secs
+Data transferred:	    15357.15 MB
+Response time:		        0.02 secs
+Transaction rate:	       12.18 trans/sec
+Throughput:		      257.24 MB/sec
+Concurrency:		        0.29
+Successful transactions:         681
+Failed transactions:	           0
+Longest transaction:	        0.31
+Shortest transaction:	        0.00
+
+==== RUN 2 =====
+Transactions:		         694 hits
+Availability:		      100.00 %
+Elapsed time:		       59.24 secs
+Data transferred:	    14582.22 MB
+Response time:		        0.02 secs
+Transaction rate:	       11.72 trans/sec
+Throughput:		      246.15 MB/sec
+Concurrency:		        0.22
+Successful transactions:         650
+Failed transactions:	           0
+Longest transaction:	        0.23
+Shortest transaction:	        0.00
+
+==== RUN 3 =====
+Transactions:		         651 hits
+Availability:		      100.00 %
+Elapsed time:		       59.04 secs
+Data transferred:	    14060.69 MB
+Response time:		        0.02 secs
+Transaction rate:	       11.03 trans/sec
+Throughput:		      238.16 MB/sec
+Concurrency:		        0.21
+Successful transactions:         611
+Failed transactions:	           0
+Longest transaction:	        0.26
+Shortest transaction:	        0.00
+
+
+Twisted
+============
+==== RUN 1 =====
+Transactions:		         593 hits
+Availability:		      100.00 %
+Elapsed time:		       59.02 secs
+Data transferred:	    12428.34 MB
+Response time:		        0.09 secs
+Transaction rate:	       10.05 trans/sec
+Throughput:		      210.58 MB/sec
+Concurrency:		        0.89
+Successful transactions:         556
+Failed transactions:	           0
+Longest transaction:	        1.40
+Shortest transaction:	        0.00
+
+==== RUN 2 =====
+Transactions:		         668 hits
+Availability:		      100.00 %
+Elapsed time:		       59.76 secs
+Data transferred:	    13992.57 MB
+Response time:		        0.05 secs
+Transaction rate:	       11.18 trans/sec
+Throughput:		      234.15 MB/sec
+Concurrency:		        0.56
+Successful transactions:         626
+Failed transactions:	           0
+Longest transaction:	        0.46
+Shortest transaction:	        0.00
+
+==== RUN 3 =====
+Transactions:		         627 hits
+Availability:		      100.00 %
+Elapsed time:		       59.28 secs
+Data transferred:	    13040.98 MB
+Response time:		        0.06 secs
+Transaction rate:	       10.58 trans/sec
+Throughput:		      219.99 MB/sec
+Concurrency:		        0.60
+Successful transactions:         588
+Failed transactions:	           0
+Longest transaction:	        0.55
+Shortest transaction:	        0.00
+
+
+SimpleHTTPServer - multithread
+============
+==== RUN 1 =====
+Transactions:		         576 hits
+Availability:		      100.00 %
+Elapsed time:		       59.80 secs
+Data transferred:	    12086.75 MB
+Response time:		        0.08 secs
+Transaction rate:	        9.63 trans/sec
+Throughput:		      202.12 MB/sec
+Concurrency:		        0.73
+Successful transactions:         540
+Failed transactions:	           0
+Longest transaction:	        0.80
+Shortest transaction:	        0.00
+
+==== RUN 2 =====
+Transactions:		         562 hits
+Availability:		      100.00 %
+Elapsed time:		       59.39 secs
+Data transferred:	    11621.57 MB
+Response time:		        0.10 secs
+Transaction rate:	        9.46 trans/sec
+Throughput:		      195.68 MB/sec
+Concurrency:		        0.92
+Successful transactions:         526
+Failed transactions:	           0
+Longest transaction:	        1.23
+Shortest transaction:	        0.00
+
+==== RUN 3 =====
+Transactions:		         574 hits
+Availability:		      100.00 %
+Elapsed time:		       59.18 secs
+Data transferred:	    12317.54 MB
+Response time:		        0.12 secs
+Transaction rate:	        9.70 trans/sec
+Throughput:		      208.14 MB/sec
+Concurrency:		        1.17
+Successful transactions:         539
+Failed transactions:	           0
+Longest transaction:	        1.17
+Shortest transaction:	        0.00
+
+
+SimpleHTTPServer - singlethread
+============
+==== RUN 1 =====
+Transactions:		         641 hits
+Availability:		      100.00 %
+Elapsed time:		       59.79 secs
+Data transferred:	    13468.38 MB
+Response time:		        0.09 secs
+Transaction rate:	       10.72 trans/sec
+Throughput:		      225.26 MB/sec
+Concurrency:		        0.91
+Successful transactions:         600
+Failed transactions:	           0
+Longest transaction:	        1.20
+Shortest transaction:	        0.00
+
+==== RUN 2 =====
+Transactions:		         628 hits
+Availability:		      100.00 %
+Elapsed time:		       59.40 secs
+Data transferred:	    13285.35 MB
+Response time:		        0.11 secs
+Transaction rate:	       10.57 trans/sec
+Throughput:		      223.66 MB/sec
+Concurrency:		        1.21
+Successful transactions:         589
+Failed transactions:	           0
+Longest transaction:	        0.76
+Shortest transaction:	        0.00
+
+==== RUN 3 =====
+Transactions:		         575 hits
+Availability:		      100.00 %
+Elapsed time:		       59.12 secs
+Data transferred:	    11889.47 MB
+Response time:		        0.14 secs
+Transaction rate:	        9.73 trans/sec
+Throughput:		      201.11 MB/sec
+Concurrency:		        1.32
+Successful transactions:         539
+Failed transactions:	           0
+Longest transaction:	        1.01
+Shortest transaction:	        0.00

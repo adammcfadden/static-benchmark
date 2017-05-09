@@ -1,0 +1,69 @@
+Siege Running repeat through file_list.txt in order. Concurrency 24. Largest file is ~120mb
+Test runs for 60s
+
+Elixir
+============
+==== RUN 1 =====
+Transactions:		        2673 hits
+Availability:		      100.00 %
+Elapsed time:		       59.64 secs
+Data transferred:	    54250.29 MB
+Response time:		        0.03 secs
+Transaction rate:	       44.82 trans/sec
+Throughput:		      909.63 MB/sec
+Concurrency:		        1.52
+Successful transactions:        2497
+Failed transactions:	           0
+Longest transaction:	        1.27
+Shortest transaction:	        0.00
+
+
+Twisted
+============
+==== RUN 1 =====
+Transactions:		        1389 hits
+Availability:		      100.00 %
+Elapsed time:		       59.94 secs
+Data transferred:	    26491.24 MB
+Response time:		        0.52 secs
+Transaction rate:	       23.17 trans/sec
+Throughput:		      441.96 MB/sec
+Concurrency:		       12.13
+Successful transactions:        1296
+Failed transactions:	           0
+Longest transaction:	        6.80
+Shortest transaction:	        0.00
+
+
+SimpleHTTPServer - multithread
+============
+==== RUN 1 =====
+Transactions:		        1058 hits
+Availability:		      100.00 %
+Elapsed time:		       59.45 secs
+Data transferred:	    18780.88 MB
+Response time:		        0.82 secs
+Transaction rate:	       17.80 trans/sec
+Throughput:		      315.91 MB/sec
+Concurrency:		       14.54
+Successful transactions:         984
+Failed transactions:	           0
+Longest transaction:	        8.18
+Shortest transaction:	        0.00
+
+
+SimpleHTTPServer - singlethread
+============
+==== RUN 1 =====
+Transactions:		         932 hits
+Availability:		       99.89 %
+Elapsed time:		       59.90 secs
+Data transferred:	    17245.23 MB
+Response time:		        0.94 secs
+Transaction rate:	       15.56 trans/sec
+Throughput:		      287.90 MB/sec
+Concurrency:		       14.70
+Successful transactions:         868
+Failed transactions:	           1
+Longest transaction:	       32.73
+Shortest transaction:	        0.00

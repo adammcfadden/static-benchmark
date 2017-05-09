@@ -1,0 +1,8 @@
+run_erl [17319] Tue May  9 13:02:46 2017
+Args before exec of shell:
+run_erl [17319] Tue May  9 13:02:46 2017
+argv[0] = sh
+run_erl [17319] Tue May  9 13:02:46 2017
+argv[1] = -c
+run_erl [17319] Tue May  9 13:02:46 2017
+argv[2] = exec "/home/adam/serverTest/raptor/bin/raptor" "console" --  
